@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact/Location</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+  </head>
+  <body>
+  <header>
+    <h1>Welcome To The Davy Crockett Cabin - Museum</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="histdavy.html">Biography</a></li>
+        <li><a href="histcabin.html">About the Cabin</a></li>
+        <li><a href="items.html">What's to See</a></li>
+        <li><a href="merch.html">Merchandise</a></li>
+        <li><a href="loccon.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <style type="text/css">
+      div#googleMap {
+        margin: 30px auto 0 auto;
+      }
+    </style>
+   <div id="googleMap" style="width:95%;height:600px;:height:300px;">
+    <script>
+    function cabinMap() {
+    var mapProp= {
+        center:new google.maps.LatLng(36.130071, -88.987090),
+        zoom:17,
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtJwgGS-6JmtMk2D8tz_xdaZBOYYUos34&callback=cabinMap"></script>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <td><b>Prices</b></td>
+          <td><b>Visiting Hours*</b></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Adult - 2$</td>
+          <td>Tuesday - Saturday: 9A.M to 5P.M</td>
+        </tr>
+        <tr>
+          <td>Children - 1$</td>
+          <td>Sundays (Memorial Day - Labor Day) 1 to 4:30P.M</td>
+        </tr>
+        <tr>
+          <td>Family - 5$</td>
+        </tr>
+      </tbody>
+      <tfoot>
+       <tr>
+        <td class="tfoot"><i>*Visiting Hours Open Only on Appointment</i></td>
+       </tr>
+      </tfoot>
+    </table>
+    <a href="form.html" id="frm">Give us your feedback!</a>
+    <style>
+      
+      #frm {
+        margin: 10px 10px 10px 10px
+      }
+      
+      #frm:hover {
+        color: #aaa;
+      }
+      
+      @media screen and (max-width: 480px) {
+        #googleMap {
+          height: 300px;
+        }
+        
+        
+    </style>
+    <footer>©2017</footer>
+    </body>
+  </html>

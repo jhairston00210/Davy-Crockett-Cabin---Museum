@@ -1,0 +1,114 @@
+/********************
+ Universal Selector 
+********************/
+
+*{
+  font-family: 'Alegreya', serif;
+}
+
+/********************
+      Header
+********************/
+header {
+  background-color: #690000;
+  margin: auto 0;
+  padding: 0;
+  top: 0;
+  z-index: 5;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center
+}
+
+nav {
+  background-color: #600;
+}
+
+nav ul {
+  margin: auto 0;
+  padding: 0;
+  text-align: top-right;
+  text-decoration: none;
+  color: #000;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 115px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #fbf1d0;
+}
+
+a:active {
+  color: #000;
+}
+
+/********************
+     Body
+********************/
+body {
+   background-color: #fbf1d0;
+    }
+
+.p1, .p2 {
+  margin: 10px 10px 10px 10px;
+  padding: auto 0;
+  text-align: center;
+}
+
+.p3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#cabin.resize {
+  width: 260;
+  height: auto;
+}
+
+.p3 img {
+  width: 90%;
+  height: auto;
+}
+
+p {
+  text-indent: 2.0em;
+}
+ 
+/********************
+     Footer
+********************/
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/********************
+     Table
+********************/
+
+td {
+  padding-left: 5px;
+  padding-top:: 10px;
+  padding-bottom: 10px;
+}
+
+.tfoot {
+  font-size: 10px;
+}
+
+table {
+  margin:10px 10px 10px 10px;
+  padding: 0 auto;
+}
